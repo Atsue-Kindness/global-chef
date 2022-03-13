@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: roboto, sans-serif;
+}
+body {
+  min-width: 376px;
+  background-color: #fafafa;
+}
+/* colors  #7796a8 */
+.promo-code {
+  background-color: #7796a8;
+  text-align: center;
+}
+.promo-code a {
+  font-size: 1rem;
+  line-height: 1.4rem;
+  text-decoration: none;
+  padding: 0.6rem 0;
+  display: inline-block;
+  color: #ffffff;
+  /* width: 19rem; */
+  font-weight: 600;
+}
+.nav-bar {
+  /* margin-top: 1.4rem; */
+  padding: 1rem 0;
+}
+.logo {
+  width: 11rem;
+}
+.logo-img {
+  width: 100%;
+}
+.main-body {
+  width: 80%;
+  margin: 0 auto;
+}
+.nav-link li:first-child {
+  /* text-decoration: underline; */
+  border-bottom: 1px solid;
+}
+.nav-bar-items {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 3rem;
+  align-items: center;
+  /* justify-content: center;  */
+}
+.item-2 {
+  display: flex;
+  gap: 2rem;
+}
+.nav-links {
+  display: none;
+}
+
+.nav-icon-img {
+  width: 1.4rem;
+}
+.nav-icons {
+  display: flex;
+  gap: 2rem;
+}
+.section-2 {
+  width: 100%;
+}
+.carousel-img {
+  width: 100%;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.section-three {
+  padding: 2.5rem 0;
+}
+
+.section-three {
+  text-align: center;
+}
+.section-three h1 {
+  font-size: 2rem;
+  margin: 0 0 1rem;
+  color: rgb(75, 75, 75);
+  letter-spacing: 0.1rem;
+}
+.section-three p {
+  font-size: 1rem;
+  margin: 0 0 2.5rem;
+  letter-spacing: 0.1rem;
+  line-height: 1.7rem;
+  color: rgb(75, 75, 75);
+}
+
+.short-btn {
+  background-color: #557b97;
+  letter-spacing: 0.1rem;
+  padding: 1rem 1.4rem;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.section-4 h4,
+.section-6 h4 {
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+  margin: 2rem 0 3rem;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+/* .grid-container div {
+  width: 175px;
+  height: 175px;
+} */
+.grid-imgs {
+  width: 100%;
+}
+.modern-jacket {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./Images/1\ modern\ jacket.png);
+}
+.back-to-black {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./Images/2\ back\ to\ black.png);
+  /* padding: 0 4rem; */
+}
+.chef-pant {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./Images/3\ chef\ pants.jpg);
+}
+.cool-jacket {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./Images/4\ cool\ jackets.jpg);
+}
+.chef-revival {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/5\ Chef\ revival.jpg);
+}
+.aprons {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/6\ apron.jpg);
+}
+.trad-jacket {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/7\ traditional\ jackets.png);
+}
+.value-jacket {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/8\ value\ jackets.png);
+}
+.chef-shoe {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/9\ shoes.jpg);
+}
+.chef-hat {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/10\ chef\ hats.jpg);
+}
+.full-set {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/11\ full\ 99.jpg);
+}
+.tool-bag {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/Images/12\ tool.jpg);
+}
+
+.section-4 div p {
+  color: #ffffff;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.img-default {
+  height: 13rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+/* .grid-container div:hover {
+  background: rgba(0, 0, 0, 0.096);
+} */
+
+.sect-5-img {
+  width: 100%;
+  margin: 4rem 0 3rem;
+}
+.section-5 {
+  margin: 2rem 0;
+}
+.section-5-img {
+  width: 100%;
+}
+.sect-5-text h3 {
+  font-size: 1.7rem;
+  color: rgb(75, 75, 75);
+  letter-spacing: 0.1rem;
+  font-weight: 600;
+}
+.sect-5-text p {
+  line-height: 1.8rem;
+  margin: 1rem 0;
+}
+.btn-long {
+  background-color: #557b97;
+  letter-spacing: 0.1rem;
+  padding: 0.8rem 1.3rem;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.section-6 {
+  margin-top: 4rem;
+}
+.grid-container-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+}
+
+.grid-container-2 {
+  width: 100%;
+}
+.sect-six-img {
+  width: 100%;
+}
+.sect-six-p {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.6;
+}
+.grid-container-2 div a {
+  text-decoration: none;
+  color: #414164;
+}
+.grid-container-2 div a:hover {
+  text-decoration: underline;
+}
+.grid-container-2 div a p {
+  margin-top: 1rem;
+}
+
+.sect-six-btn {
+  text-align: center;
+  margin: 6rem 0 3rem;
+}
+footer {
+  background-color: #f5f5f5;
+}
+.footer-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.footer-contain {
+  padding: 3rem 0;
+}
+.footer-contain .flex-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer-contain div a {
+  text-decoration: none;
+  color: #414164;
+  font-size: 1rem;
+}
+.footer-contain div p {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.footer-contain {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.footer-contain div h6 {
+  font-size: 1rem;
+  font-weight: 400;
+}
+.input-class {
+  margin-bottom: 3rem;
+}
+.input-class p {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+.input-class input {
+  padding: 0.8rem 4rem 0.8rem 1rem;
+  border: 1px solid #acaaaa;
+  background: none;
+  font-size: 1rem;
+}
+.subscribe-btn {
+  padding: 0.9rem 1rem;
+  border: 1px solid #557b97;
+  background-color: #557b97;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #ffffff;
+  margin-left: -1rem;
+  text-transform: uppercase;
+}
+
+.left-con-icon {
+  width: 1.5rem;
+  fill: #3d4246;
+}
+.left-con {
+  width: 2.1rem;
+  fill: #3d4246;
+}
+.left-container {
+  display: flex;
+  justify-content: center;
+  gap: 2.4rem;
+}
+.icon-container {
+  width: 90%;
+  margin: 2rem auto 0;
+}
+.brands {
+  border-top: 1px solid #dddddd;
+  margin-top: 8rem;
+  background-color: #f5f5f5;
+  padding: 2rem 0;
+}
+.middle-container {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1rem;
+  justify-content: center;
+}
+.apple-pay-icon {
+  border: 1px solid #3d4246;
+  padding: 3px;
+}
+.middle-container div {
+  width: 2.7rem;
+}
+.middle-logos {
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+}
+.right-container {
+  width: 8rem;
+  margin: 2rem auto 0.3rem;
+}
+.shopify-add {
+  width: 100%;
+}
+.copyright {
+  text-align: center;
+  font-size: 0.8rem;
+}
